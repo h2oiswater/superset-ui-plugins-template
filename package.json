@@ -25,7 +25,8 @@
     "pretest": "yarn lint",
     "release": "yarn prepare-release && lerna publish --exact && yarn postrelease",
     "postrelease": "lerna run deploy-demo",
-    "storybook": "cd packages/superset-ui-plugins-demo && yarn storybook"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": "https://github.com/apache-superset/superset-ui-plugins.git",
   "keywords": [
@@ -147,5 +148,6 @@
       "yarn prettier --write",
       "git add"
     ]
-  }
+  },
+  "dependencies": {}
 }

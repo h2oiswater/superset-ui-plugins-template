@@ -6,7 +6,7 @@ export default [
   {
     renderStory: () => (
       <SuperChart
-        chartType="echarts_bar_y_category_stack"
+        chartType="echarts_mix_bar_line"
         width={400}
         height={400}
         queryData={{}}
@@ -14,6 +14,6 @@ export default [
       />
     ),
     storyName: 'Basic',
-    storyPath: 'plugin-chart-echarts|BarYCategoryStackPlugin',
+    storyPath: 'plugin-chart-echarts|MixBarLinePlugin',
   },
 ];
