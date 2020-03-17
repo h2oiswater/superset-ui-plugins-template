@@ -1,7 +1,7 @@
 {
-  "name": "@apenga/echarts-bar-y-category-stack",
-  "version": "0.0.4",
-  "description": "Superset Chart Plugin - ECharts BarYCategoryStack",
+  "name": "@apenga/echarts-mix-line-bar",
+  "version": "0.0.1",
+  "description": "Superset Chart Plugin - ECharts MixLineBar",
   "sideEffects": [
     "*.css"
   ],
